@@ -1,6 +1,3 @@
-### `README.md`
-
-```markdown
 # Movie Search Application
 
 A responsive web application that allows users to search for movies, view basic details, and browse related information using The Movie Database (TMDb) API.

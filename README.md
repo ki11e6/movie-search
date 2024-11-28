@@ -44,7 +44,7 @@ Ensure you have the following installed on your system:
 ### Steps to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/movie-search-app.git
+   git clone https://github.com/ki11e6/movie-search.git
    cd movie-search-app
    ```
 
@@ -79,6 +79,10 @@ src/
 ├── App.jsx
 ├── assets
 ├── components
+│   ├── auth
+│   │   ├── Login.jsx
+│   │   ├── Logout.jsx
+│   │   └── Signup.jsx
 │   ├── BannerHome.jsx
 │   ├── Card.jsx
 │   ├── Divider.jsx
@@ -99,6 +103,8 @@ src/
 │   ├── ExplorePage.jsx
 │   ├── Home.jsx
 │   └── SearchPage.jsx
+├── services
+│   └── supabase.js
 └── store
     ├── movieoSlice.jsx
     └── store.jsx
